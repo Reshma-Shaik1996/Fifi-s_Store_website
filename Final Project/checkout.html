@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+
+    <style>
+        img {
+          width: 300px;
+          height: 300px;
+        }
+    </style>  
+      <link rel="stylesheet" type="text/css" href="./css/style.css" />
+      <link rel="stylesheet" type="text/css" href="./css/checkout.css" />
+
+</head>
+
+<body>
+    <div class="wrapper">
+      <div class="menu-bar">
+        <div>
+          <img src="./img/Logo.png" alt="Image not found" class="logo" />
+        </div>
+        <ul>
+          <li>
+            <a href="index.html" class="Indexpage">Home</a>
+          </li>
+
+          <li class="show_cart">
+            <a> <img src="./img/cart.jpg" class="show_cart" /> Cart</a>
+          </li>
+          <li><a href="contact.html">Contact Us</a></li>
+
+          <li><a href="login.html">Logout</a></li>
+        </ul>
+        <div class="search-box">
+          <input
+            type="text"
+            placeholder="Search here..."
+            id="search_bar"
+            title="Type a name"
+          />
+        </div>
+      </div>
+    </div>
+    <div id="cart_window" class="cart_display" style="display:none">
+      <span class="cart_close"> &times;</span>
+      <h1>Welcome to the cart!!</h1>
+      <p>The cart items are displayed here..</p>
+      <table class="cart_content"></table>
+
+      <button class="payemntbutton">Make a Payemt</button>
+    </div>
+    
+  
+
+
+    <!-- strip -->
+
+
+    <div class="strip">
+        <h2>
+            Free shipping on all Orders
+        </h2><span><a>See Details</a></span>
+    </div>
+
+
+
+    <!-- content start from here  -->
+
+    <div class="finalise">
+        <h1 class="mota">Finalise Payment </h1>
+        <form class="checkout" action="./Homepage.html">
+            <div class="form1">
+
+                <H1 class="mota">Credit Card Info</H1>
+                <label for="c-number">*Card number</label>
+                <input type="text" name="c-number" placeholder="" required>
+
+                <label for="cvc">*Cvc</label>
+                <input type="text" name="cvc" placeholder="" required>
+
+                <label for="nameoncard">*Name on the card </label>
+                <input type="text" name="nameoncard" placeholder="" required>
+                <label for="Expiration">*Expiration</label>
+                <input type="text" name="Expiration" placeholder="" required>
+
+                <label for="T-purchase">*Total Purchase</label>
+                <input type="text" name="T-purchase" placeholder="" required>
+                <input type="reset" class="button12" value="Clear"></br>
+
+            </div>
+            <div class="form2">
+                <H1 class="mota">Shipping Address</H1>
+                <label for="name">*Name</label>
+                <input type="text" name="name" placeholder="" required>
+                <label for="ads">*Address</label>
+                <input type="text" name="ads" placeholder="" required>
+                <label for="city">*City </label>
+                <input type="text" name="city" placeholder="" required>
+                <label for="pcode">*PostalCode</label>
+                <input type="text" name="pcode" placeholder="" required>
+                <label for="province">*Province</label>
+                <input type="text" name="province" placeholder="" required>
+                <label for="country">*Country</label>
+                <input type="text" name="country" placeholder="" required>
+                <input type="submit" class="button12 " id="PlaceOrderBtn" onclick="PlaceOrder()" value="Place order">
+
+            </div>
+        </form>
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+<script src="./js/main.js"></script>
+
+<script src="./js/checkoutValidation.js"></script>
+
+</html>

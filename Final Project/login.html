@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Log in</title>
+    <style></style>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu-bar">
+        <div>
+          <img src="./img/Logo.png" alt="Image not found" class="logo" />
+        </div>
+        <section id="login-ul">
+          <ul>
+            <li><a href="MainHome.html">Home</a></li>
+
+            <li><a href="#">Login</a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+    <div id="Login-left">
+      <div class="Login-Form">
+        <img src="./img/Logo.png" alt="Image Not Found" />
+
+        <form class="ActualLoginform">
+          <label class="Login-label">Username:</label><br />
+          <input
+            type="text"
+            placeholder="Enter Username"
+            name="User"
+            id="Login-user"
+          /><br />
+          <label class="Login-label">Password:</label><br />
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="Pass"
+            id="Login-password"
+          /><br />
+          <button id="Login-button" onclick="authenticate(this.form)">
+            SUBMIT
+          </button>
+        </form>
+      </div>
+    </div>
+    <div id="Login-right">
+      <img src="./img/hand.jpg" alt="Image Not Found" id="Hand" />
+    </div>
+  </body>
+  <script src="./js/main.js"></script>
+</html>

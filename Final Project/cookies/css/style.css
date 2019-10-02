@@ -1,0 +1,15 @@
+form {
+  width: 500px;
+  margin: 20px auto;
+  font-family: Tohama;
+  font-size: 20px;
+}
+.grp-content {
+  margin: 20px auto;
+}
+label {
+  display: block;
+}
+input {
+  width: 300px;
+}

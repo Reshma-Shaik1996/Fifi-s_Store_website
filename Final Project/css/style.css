@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+/* +++++++++++Contanct Form CSS +++++++++++++++ */
+.Input {
+  padding: 20px;
+  width: 350px;
+  margin: 10px auto;
+  border: 2px solid #70597a;
+}
+.TextArea {
+  margin: 10px auto;
+  border: 2px solid #70597a;
+}
+.Button {
+  background-color: #70597a;
+
+  padding: 15px 30px;
+  margin: 10px auto;
+}
+#contact-wrapper {
+  border: 2px solid #70597a;
+  margin: 6px 300px;
+  text-align: center;
+}
+
+/* +++++++++++Contanct Form CSS +++++++++++++++ */
+/* ====================Login Form CSS +++++++++++++++ */
+#login-ul {
+  margin-left: 900px;
+}
+#Login-user,
+#Login-password {
+  padding: 15px 75px;
+  border: 2px solid #70597a;
+  margin: 10px 30px;
+}
+#Login-button {
+  padding: 15px 115px;
+  border: 2px solid #70597a;
+  margin: 10px 30px;
+
+  background-color: #70597a;
+}
+.Login-label {
+  margin: auto 30px;
+}
+#Hand {
+  margin-top: 5px;
+  height: 500px;
+  width: 580px;
+}
+#Login-right {
+  float: right;
+  width: 48%;
+}
+#Login-left {
+  float: left;
+  width: 48%;
+  clear: both;
+}
+.Login-Form {
+  border: 2px solid #70597a;
+  padding: 43px 30px;
+  margin: 10px;
+}
+
+/* ====================Login Form CSS +++++++++++++++ */
+body {
+  background-color: #f1f3f4;
+}
+
+.wrapper {
+  background-color: #977ea1;
+}
+.menu-bar {
+  position: sticky;
+  height: 57px;
+  background: #fff;
+  margin-bottom: 25px;
+  display: inline;
+  margin: auto;
+}
+.logo {
+  height: 70px;
+  margin: 5px auto;
+  float: left;
+  width: 12%;
+  display: inline;
+}
+
+.menu-bar ul {
+  display: inline-flex;
+}
+.menu-bar ul li {
+  list-style-type: none;
+  background-color: #70597a;
+  padding: 33px 35px;
+  text-align: center;
+  cursor: pointer;
+}
+.menu-bar ul a {
+  font-size: 17px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+.show_cart {
+  height: 30px;
+  width: 30px;
+}
+.menu-bar img {
+  float: left;
+  padding: 5px;
+}
+#search_bar {
+  margin-top: 7px;
+  padding: 15px 0;
+  border: 3px solid #70597a !important;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+}
+.search-box {
+  display: inline;
+  float: right;
+  width: 20%;
+  margin: 20px 10px;
+}
+main {
+  margin-top: 60px;
+}
+#app {
+  /* margin: auto 420px;
+  background-color: #977ea1;
+padding: 20px 0 28px 0; */
+  font-family: sans-serif;
+  background-color: #dedede;
+  color: #333;
+  padding: 20px 0 28px 0;
+  margin: 0;
+}
+
+/* This is the CSS for Javascript */
+
+.Animal {
+  max-width: 650px;
+  padding: 20px;
+  margin: 30px auto;
+  background-color: #fff;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.pet-photo {
+  float: left;
+  width: 48%;
+  height: 210px;
+  margin-right: 15px;
+}
+.pet-name {
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0 0 1rem 0;
+}
+.pet-type {
+  font-size: 0.9rem;
+  color: #888;
+  vertical-align: middle;
+}
+.Animal {
+  margin: auto;
+}
+#myUL {
+  width: 90%;
+  list-style-type: none;
+}
+#myUL li a {
+  color: #47384e;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+}
+/* Add to cart button  */
+#cart-botton {
+  padding: 10px 25px;
+  background-color: #977ea1;
+  color: #fff;
+  font-size: 16px;
+  border-radius: px;
+}
+/* CSS for cart window .cart_display */
+#cart_window {
+  z-index: 1;
+  padding: 60px;
+  /* margin: 100px 170px; */
+  background-color: #977ea1;
+  width: 60%;
+  height: 300px;
+  /* display: none; */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: scroll;
+}
+.cart_content {
+  text-align: center;
+}
+.cart_close {
+  float: right;
+}
+.cart_close:hover,
+.cart_close:focus {
+  color: #47384e;
+}
+.payemntbutton {
+  padding: 20px 200px;
+  background-color: aquamarine;
+
+  top: 80%;
+}
